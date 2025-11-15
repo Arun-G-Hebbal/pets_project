@@ -1,0 +1,69 @@
+# Go Build Files
+
+bin/
+build/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Go workspace
+go.work
+go.work.sum
+
+# Go modules cache
+/pkg/mod/
+/pkg/
+
+
+# Environment Variables
+.env
+.env.*      # env.production, env.local etc.
+
+
+# Logs
+*.log
+logs/
+*.out
+
+# Uploaded files (Your project)
+uploads/
+uploads/*
+
+
+# Temporary Files
+*.tmp
+*.temp
+tmp/
+
+
+# Docker
+Dockerfile~
+docker-compose.override.yml
+docker-compose.debug.yml
+*.bak
+**/.docker/
+
+
+# VS Code / JetBrains
+.vscode/
+.idea/
+
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+
+# Backup & Editor Swap Files
+*~
+*.swp
+*.swo
+
+# Test coverage files
+*.cover
+*.coverage
+*.cov
